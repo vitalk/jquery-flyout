@@ -1,0 +1,22 @@
+{
+  "name": "jquery-flyout",
+  "main": "index.js",
+  "version": "0.0.1",
+  "homepage": "https://github.com/vitalk/jquery-flyout",
+  "authors": [
+    "Vital Kudzelka <vital.kudzelka@gmail.com>"
+  ],
+  "description": "Fly out some box when action occurs",
+  "keywords": [
+    "jquery",
+    "flyout"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
