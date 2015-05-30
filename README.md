@@ -4,6 +4,15 @@ jQuery Flyout
 Flyout is a piece of content that fly out of a parent when some action occurs,
 for example, when box is clicked.
 
+Installation
+------------
+
+The recommended installation method is a [bower](http://bower.io):
+
+```sh
+bower install --save jquery-flyout
+```
+
 Usage
 -----
 
