@@ -18,10 +18,10 @@ Usage
 
 ```html
 <style>
-  .flyout {
+  .has-flyout .flyout {
     display: none;
   }
-  .flyout.is-opened {
+  .has-flyout.is-opened .flyout {
     display: block;
   }
 </style>
@@ -33,8 +33,8 @@ Usage
 
 <script>
   (function() {
-    $('.has-flyout').flyout({trigger: {open: 'js-flyout-open',
-                                       close: 'js-flyout-close'}});
+    $('.has-flyout').flyout({trigger: {open: '.js-flyout-open',
+                                       close: '.js-flyout-close'}});
   }());
 </script>
 ```
