@@ -75,14 +75,12 @@
             instance.debug('Binding events');
 
             if (instance.options.trigger.open) {
-              $instance
-                .find(instance.options.trigger.open)
+              $(instance.options.trigger.open)
                 .on('click', module.event.open);
             }
 
             if (instance.options.trigger.close) {
-              $instance
-                .find(instance.options.trigger.close)
+              $(instance.options.trigger.close)
                 .on('click', module.event.close);
             }
           }

@@ -1,7 +1,7 @@
 {
   "name": "jquery-flyout",
   "main": "index.js",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "homepage": "https://github.com/vitalk/jquery-flyout",
   "authors": [
     "Vital Kudzelka <vital.kudzelka@gmail.com>"
