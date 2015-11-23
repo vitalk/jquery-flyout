@@ -83,6 +83,11 @@
               $(instance.options.trigger.close)
                 .on('click', module.event.close);
             }
+
+            if (instance.options.trigger.toggle) {
+              $(instance.options.trigger.toggle)
+                .on('click', module.event.toggle);
+            }
           }
         },
 
@@ -94,6 +99,11 @@
 
           close: function(event) {
             instance.close();
+            event.preventDefault();
+          },
+
+          toggle: function(event) {
+            instance.toggle();
             event.preventDefault();
           }
         },
@@ -158,7 +168,8 @@
 
     trigger: {
       open: false,
-      close: false
+      close: false,
+      toggle: false
     }
   };
 
